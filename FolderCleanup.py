@@ -48,6 +48,7 @@ class DirectoryStructure:
 	map = dict(
 		Archives = ["zip", "rar", "7z", "tar", "gz", "bz2"],
 		Binaries = ["exe", "dll", "msi", "vsix", "xpi"],
+		Books = ["epub", "mobi"],
 		Documents = ["doc", "docx", "txt", "pdf", "xps", "dotx"],
 		Images = ["iso","mkv","mdf"],
 		Movies = ["avi","mpg","mpeg","mov","mp4", "flv"],
