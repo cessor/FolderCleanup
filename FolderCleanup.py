@@ -49,11 +49,11 @@ class DirectoryStructure:
 		Archives = ["zip", "rar", "7z", "tar", "gz", "bz2", "tgz"],
 		Binaries = ["exe", "dll", "msi", "vsix", "xpi"],
 		Books = ["epub", "mobi"],
-		Documents = ["doc", "docx", "txt", "pdf", "xps", "dotx", "odt", "html"],
+		Documents = ["doc", "docx", "txt", "pdf", "xps", "dotx", "odt", "html", "md"],
 		Images = ["iso","mkv","mdf"],
 		Movies = ["avi","mpg","mpeg","mov","mp4", "flv"],
 		Music = ["mp3","wav", "ogg", "wma"],
-		Pictures = ["jpg","png","jpeg", "tif", "gif"],
+		Pictures = ["jpg","png","jpeg", "tif", "gif", "svg", "psd"],
 		Presentations=["ppt", "pptx"],
 		Sourcecode = ["cs","css","cpp","h","c", "js", "php", "py", "java", "pyc", "xaml", "xml", "rb", "config"],
 		Spreadsheets = ["csv","xlsx", "xls", "json"]
