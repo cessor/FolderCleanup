@@ -47,15 +47,17 @@ class Log:
 class DirectoryStructure:
 	map = dict(
 		Archives = ["zip", "rar", "7z", "tar", "gz", "bz2", "tgz"],
-		Binaries = ["exe", "dll", "msi", "vsix", "xpi"],
+		Binaries = ["exe", "dll", "msi", "vsix", "xpi", "xap", "jar"],
 		Books = ["epub", "mobi"],
+		Certificates = ["pfx", "crt", "pem"],
 		Documents = ["doc", "docx", "txt", "pdf", "xps", "dotx", "odt", "html", "md"],
+		Fonts = ["ttf", "otf"],
 		Images = ["iso","mkv","mdf"],
 		Movies = ["avi","mpg","mpeg","mov","mp4", "flv"],
-		Music = ["mp3","wav", "ogg", "wma"],
-		Pictures = ["jpg","png","jpeg", "tif", "gif", "svg", "psd"],
+		Music = ["mp3","wav", "ogg", "wma", "m3u"],
+		Pictures = ["jpg","png","jpeg", "tif", "tiff", "gif", "svg", "psd", "eps", "cr2", "tga"],
 		Presentations=["ppt", "pptx"],
-		Sourcecode = ["cs","css","cpp","h","c", "js", "php", "py", "java", "pyc", "xaml", "xml", "rb", "config"],
+		Sourcecode = ["cs","css","cpp","h","c", "js", "php", "py", "java", "pyc", "xaml", "xml", "rb", "config", "whl"],
 		Spreadsheets = ["csv","xlsx", "xls", "json"]
 	)
 
